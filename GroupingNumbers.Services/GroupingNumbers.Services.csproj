@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\" />
+    <None Remove="src\Interfaces\" />
+    <None Remove="src\Implementation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\Interfaces\" />
+    <Folder Include="src\Implementation\" />
+  </ItemGroup>
+</Project>
